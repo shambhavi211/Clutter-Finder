@@ -122,13 +122,9 @@ The executable appears in `dist/ClutterFinder.exe`. Double-click it and your bro
 - [ ] Move-to-Recycle-Bin instead of permanent delete
 - [ ] Screenshot / document classifier
 - [ ] macOS and Linux builds
+      
+## Ideas for extending it further
 
-## Team
-
-Built as a B.Tech CSE mini-project (Project Id 26_CS_3P_09) at Pranveer Singh Institute of Technology, Kanpur, under the guidance of Mr. Vinay Singh.
-
-Shashank Dixit (Leader), Shambhavi Shukla, Shreya Keshari, Shrejal Singh, Shlok Gupta
-
-## License
-
-MIT. See `LICENSE`.
+- Multiprocessing for hashing thousands of images faster
+- OCR-based text similarity for documents/PDFs (using `pytesseract`)
+- A "safe to delete" confidence score combining similarity + file age + size
