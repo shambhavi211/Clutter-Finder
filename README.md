@@ -1,7 +1,6 @@
 # Clutter-Finder
 A perceptual duplicate and forgotten file detection tool.
 
-# Clutter Finder
 
 > Find what's quietly taking up space on your computer, and clean it up without ever losing a file by accident.
 
